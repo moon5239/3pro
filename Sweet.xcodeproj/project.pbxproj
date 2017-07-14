@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16444FC41EFBF6B4004D7BD2 /* candy_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 16444FC31EFBF6B4004D7BD2 /* candy_l.png */; };
+		164D6EF61EFA3B4500E6C80F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164D6EF51EFA3B4500E6C80F /* MediaPlayer.framework */; };
+		16F138091F0CA34900EE832C /* present_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F138081F0CA34900EE832C /* present_l.png */; };
+		16F1380B1F0CA40400EE832C /* fukidasi3.png in Resources */ = {isa = PBXBuildFile; fileRef = 16F1380A1F0CA40400EE832C /* fukidasi3.png */; };
+		16F3BA201F0367A100AA38F9 /* うさしろ.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 16F3BA1F1F0367A100AA38F9 /* うさしろ.PNG */; };
+		16F3BA221F0367A500AA38F9 /* うさみずいろ.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 16F3BA211F0367A500AA38F9 /* うさみずいろ.PNG */; };
 		16F707441EFA387C00B9F704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F707431EFA387C00B9F704 /* AppDelegate.swift */; };
 		16F707461EFA387C00B9F704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F707451EFA387C00B9F704 /* ViewController.swift */; };
 		16F707491EFA387C00B9F704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F707471EFA387C00B9F704 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16444FC31EFBF6B4004D7BD2 /* candy_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candy_l.png; sourceTree = "<group>"; };
+		164D6EF51EFA3B4500E6C80F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		16F138081F0CA34900EE832C /* present_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = present_l.png; sourceTree = "<group>"; };
+		16F1380A1F0CA40400EE832C /* fukidasi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukidasi3.png; sourceTree = "<group>"; };
+		16F3BA1F1F0367A100AA38F9 /* うさしろ.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "うさしろ.PNG"; sourceTree = "<group>"; };
+		16F3BA211F0367A500AA38F9 /* うさみずいろ.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "うさみずいろ.PNG"; sourceTree = "<group>"; };
 		16F707401EFA387C00B9F704 /* Sweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F707431EFA387C00B9F704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16F707451EFA387C00B9F704 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +41,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164D6EF61EFA3B4500E6C80F /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		164D6EF41EFA3B4500E6C80F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				164D6EF51EFA3B4500E6C80F /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		16F707371EFA387C00B9F704 = {
 			isa = PBXGroup;
 			children = (
 				16F707421EFA387C00B9F704 /* Sweet */,
 				16F707411EFA387C00B9F704 /* Products */,
+				164D6EF41EFA3B4500E6C80F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +80,13 @@
 				16F707451EFA387C00B9F704 /* ViewController.swift */,
 				16F707471EFA387C00B9F704 /* Main.storyboard */,
 				16F7074A1EFA387C00B9F704 /* Assets.xcassets */,
+				16444FC31EFBF6B4004D7BD2 /* candy_l.png */,
 				16F7074C1EFA387C00B9F704 /* LaunchScreen.storyboard */,
+				16F3BA211F0367A500AA38F9 /* うさみずいろ.PNG */,
+				16F1380A1F0CA40400EE832C /* fukidasi3.png */,
 				16F7074F1EFA387C00B9F704 /* Info.plist */,
+				16F3BA1F1F0367A100AA38F9 /* うさしろ.PNG */,
+				16F138081F0CA34900EE832C /* present_l.png */,
 			);
 			path = Sweet;
 			sourceTree = "<group>";
@@ -96,6 +123,7 @@
 				TargetAttributes = {
 					16F7073F1EFA387C00B9F704 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9XDSMHZTV5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,8 +151,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16444FC41EFBF6B4004D7BD2 /* candy_l.png in Resources */,
+				16F3BA201F0367A100AA38F9 /* うさしろ.PNG in Resources */,
 				16F7074E1EFA387C00B9F704 /* LaunchScreen.storyboard in Resources */,
+				16F1380B1F0CA40400EE832C /* fukidasi3.png in Resources */,
+				16F3BA221F0367A500AA38F9 /* うさみずいろ.PNG in Resources */,
 				16F7074B1EFA387C00B9F704 /* Assets.xcassets in Resources */,
+				16F138091F0CA34900EE832C /* present_l.png in Resources */,
 				16F707491EFA387C00B9F704 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +295,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9XDSMHZTV5;
 				INFOPLIST_FILE = Sweet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.Sweet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,10 +310,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9XDSMHZTV5;
 				INFOPLIST_FILE = Sweet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.Sweet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,6 +340,7 @@
 				16F707541EFA387C00B9F704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
